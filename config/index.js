@@ -10,7 +10,7 @@ export const config = {
     APP_SECRET: "921152829edf85c5dfe9a71556313138",
 
     // 模板消息id
-    TEMPLATE_ID: "lJFS-IUZ0mk0k4m42anABAs_sWBQKN3yL5mk9TzF8eo",
+    TEMPLATE_ID: "OrJ_ijyoIb55m4jn5y8XLooZE9vh-Q3ALocf8PYpLyY",
 
     // 回调消息模板id, 用来看自己有没有发送成功的那个模板
     CALLBACK_TEMPLATE_ID: "OInKix-ypelSLAUzKfo30alcDmlNhY2TBHV3Iri57y8",
@@ -26,6 +26,7 @@ export const config = {
     // }]
     USERS: [
       {name: '杰伦的燕姿', id: "o18wE55OJsnDvJU1Sr3VQgcFihWs"},
+      {name: 'CatherLee', id: "o18wE57ZHUMELgWjeEcCjF3ASgLE"},
     ],
     // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
     CALLBACK_USERS: [
@@ -50,10 +51,7 @@ export const config = {
     // 生日时，name填写想要展示的名字，你可以填“美丽可爱亲亲老婆”
     // 节日时，name填写相应展示的节日，你可以填“被搭讪纪念日”
     FESTIVALS: [
-      {"type": "生日", "name": "老婆", "year": "1996", "date": "01-01"},
-      {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "01-04"},
-      {"type": "生日", "name": "李四", "year": "1996", "date": "08-29"},
-      {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "08-29"},
+      {"type": "生日", "name": "冉宝", "year": "1994", "date": "10-30"}
     ],
     // 限制重要节日的展示条目, 需要填写数字; 
     // 如果为3, 则仅展示“将要到达” 的3个重要节日提醒，剩下的将被忽略
